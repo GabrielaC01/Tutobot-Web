@@ -36,7 +36,7 @@ function Navbar() {
                     <h1 style={{marginTop:"1rem"}}>CREAR TUTORIAL</h1>
                 </Route>
                 <Route path='/misSesiones'>
-                    <h1 style={{marginTop:"1rem"}}>MIS SESION</h1>
+                    <h1 style={{marginTop:"1rem"}}>MIS SESIONES</h1>
                 </Route>
                 <Route path='/tutoscreados'>
                     <h1 style={{marginTop:"1rem"}}>TUTORIALES CREADOS</h1>

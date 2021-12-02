@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+p{
+    font-family: 'Exo 2', sans-serif;    
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
 .btn{
     background-color:darkcyan;
     margin-bottom: -2.85rem;

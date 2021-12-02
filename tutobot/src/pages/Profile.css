@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@700&family=Roboto:wght@300&family=Sunflower:wght@500&display=swap');
 :root{
     --main-bg-color: #262727;
     --title: #1CC272;
@@ -27,9 +28,11 @@
 
 #info h2{
     font-size: 20px;
+    font-family: 'Sunflower', sans-serif;   
 }
 #info p{
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .datosPersonales{

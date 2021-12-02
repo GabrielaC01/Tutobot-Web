@@ -9,9 +9,22 @@ ul{
 }
 
 body{
-    background-color: #1CC272;
+    background-color: #344A81F2;
+}
+.App {
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
+.app_body{
+    display: flex;
+    background-color: #91b2eb;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+
+}
 .home, .question, .nfp{
     display:flex;
     height: 90vh;
@@ -35,7 +48,7 @@ body{
     font-size: 15px;
 }
 
-.App .card {
+.app_body .card {
     max-width: 400px;
     width: 100%;
     text-align: center;

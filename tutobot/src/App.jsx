@@ -1,6 +1,10 @@
 import React from 'react';
 import AppRouter from './routers/AppRouter';
+import Navbar from './components/Navbar';
+import { Sidebar } from './components/Sidebar';
 import Registro from './pages/Registro';
+import CardTuto from './components/CardTuto';
+import Tutos from './pages/Tutos';
 import './App.css';
 
 const activado = false;
@@ -10,7 +14,17 @@ function App() {
     return (
     
       <div className="App">
-        <AppRouter/>
+        <div className='app_body'>
+          
+        <AppRouter>
+          
+          <Navbar/>
+          <CardTuto/>
+          <Tutos/>
+        </AppRouter>
+         
+        </div>
+        
       </div>
     );
   }
