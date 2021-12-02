@@ -9,6 +9,7 @@ import {
 	faDoorClosed,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Profile.css";
+import '../App.css';
 
 function Profile() {
 	const { username } = useParams();

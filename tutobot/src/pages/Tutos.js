@@ -12,6 +12,7 @@ function Tutos(props) {
     }
 
     return (
+        
         <div className="tutos">
             <CardTuto
                     title="Cálculo de integrales"
@@ -54,6 +55,7 @@ function Tutos(props) {
                     text="En este tutorial, aprenderás los conceptos básicos acerca de las ciencias biológicas"
                 />
         </div>
+      
     )
 }
 

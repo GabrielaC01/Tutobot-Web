@@ -67,7 +67,7 @@
     justify-content: center;
     position: fixed;
     top: 10;
-    margin-left: 68px;
+    margin-left: auto;
     z-index: 20;
   }
   

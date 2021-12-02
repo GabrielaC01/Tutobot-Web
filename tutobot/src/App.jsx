@@ -5,6 +5,7 @@ import { Sidebar } from './components/Sidebar';
 import Registro from './pages/Registro';
 import CardTuto from './components/CardTuto';
 import Tutos from './pages/Tutos';
+import Profile from "./pages/Profile";
 import './App.css';
 
 const activado = false;
@@ -19,8 +20,9 @@ function App() {
         <AppRouter>
           
           <Navbar>
-          <CardTuto/>
-          <Tutos/>
+            <Sidebar>
+              <Profile/>
+                </Sidebar>
           </Navbar>
         </AppRouter>
          
