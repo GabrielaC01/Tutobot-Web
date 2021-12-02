@@ -3,7 +3,7 @@ import React from 'react'
 function Title() {
     return (
         <div className="title">
-            <a href="/">Botsyto</a>
+            <a href="/">TutoBot</a>
         </div>
     )
 }

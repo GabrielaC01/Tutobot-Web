@@ -14,6 +14,7 @@ import { useState } from 'react';
 import TutosCreados from '../pages/TutosCreados';
 import CrearTutos from '../pages/CrearTutos';
 import Resultados from '../pages/Resultados';
+import MisSesiones from '../pages/MisSesiones';
 
 import Chatbot from '../components/Chatbot';
 import EditarTuto from '../pages/EditarTuto';
@@ -35,7 +36,7 @@ const AppRouter = () => {
             <Navbar/>
             <Switch>
 
-            <Route path='/' exact component={Home} />
+            
 
             <Route path='/start'>
                 {step===1 && <Start onQuizStart={quizStartHandler} />}
@@ -56,7 +57,7 @@ const AppRouter = () => {
             <Route path="/tutos">
                 <Tutos/>
             </Route>
-
+            <Route path='/misSesiones' component= {MisSesiones} />
             <Route path='/mistutos' component={MisTutos} />
             <Route path='/resultados' component={Resultados} />
             <Route path='/tutoscreados' component={TutosCreados} />

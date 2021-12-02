@@ -17,7 +17,7 @@ function Navbar() {
       <div className='navbar'>
             <h1 style={{color:"#fff"}}>
             <Switch>
-                <Route path='/perfil'>
+                <Route exact path='/perfil'>
                     <h1 style={{marginTop:"1rem"}}>PERFIL</h1>
                 </Route>
                 <Route path='/start'>
@@ -35,12 +35,15 @@ function Navbar() {
                 <Route path='/creartutos'>
                     <h1 style={{marginTop:"1rem"}}>CREAR TUTORIAL</h1>
                 </Route>
+                <Route path='/misSesiones'>
+                    <h1 style={{marginTop:"1rem"}}>MIS SESION</h1>
+                </Route>
                 <Route path='/tutoscreados'>
                     <h1 style={{marginTop:"1rem"}}>TUTORIALES CREADOS</h1>
                 </Route>
-                <Route exact path='/'>
+                {/*<Route exact path='/'>
                     <h1 style={{marginTop:"1rem"}}>HOME</h1>
-                </Route>
+              </Route>*/}
 
                 
             </Switch>

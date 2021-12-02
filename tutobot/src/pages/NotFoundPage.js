@@ -4,7 +4,7 @@ export default function NotFoundPage(){
     return(
         <div className="nfp justify-content-center">
             <h1>
-                Uy! Página no encontrada :c
+                Estamos trabajando en ello
             </h1>
         </div>
     )
