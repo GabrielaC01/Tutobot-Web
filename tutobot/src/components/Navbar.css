@@ -135,3 +135,10 @@
   span {
     margin-left: 16px;
   }
+h2{
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  white-space: nowrap;
+  font-family: 'Sunflower', sans-serif;
+}

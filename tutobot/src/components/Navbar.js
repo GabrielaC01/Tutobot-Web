@@ -15,39 +15,39 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#fff' }}>
 
       <div className='navbar'>
-            <h1 style={{color:"#fff"}}>
+            <h2>
             <Switch>
                 <Route exact path='/perfil'>
-                    <h1 style={{marginTop:"1rem"}}>PERFIL</h1>
+                    <h2>Perfil</h2>
                 </Route>
                 <Route path='/start'>
-                    <h1 style={{marginTop:"1rem"}}>START</h1>
+                    <h2>Start</h2>
                 </Route>
                 {/* <Route path='/question'>
-                    <h1 style={{marginTop:"1rem"}}>PREGUNTAS</h1>
+                    <h1>PREGUNTAS</h1>
                 </Route> */}
                 <Route path='/tutos'>
-                    <h1 style={{marginTop:"1rem"}}>TUTORIALES</h1>
+                    <h2>Tutoriales</h2>
                 </Route>
                 <Route path='/mistutos'>
-                    <h1 style={{marginTop:"1rem"}}>MIS TUTORIALES</h1>
+                    <h2>Mis tutoriales</h2>
                 </Route>
                 <Route path='/creartutos'>
-                    <h1 style={{marginTop:"1rem"}}>CREAR TUTORIAL</h1>
+                    <h2>Crear Tutorial</h2>
                 </Route>
                 <Route path='/misSesiones'>
-                    <h1 style={{marginTop:"1rem"}}>MIS SESIONES</h1>
+                    <h2>Mis sesiones</h2>
                 </Route>
                 <Route path='/tutoscreados'>
-                    <h1 style={{marginTop:"1rem"}}>TUTORIALES CREADOS</h1>
+                    <h2>Tutoriales creados</h2>
                 </Route>
                 {/*<Route exact path='/'>
-                    <h1 style={{marginTop:"1rem"}}>HOME</h1>
+                    <h1>HOME</h1>
               </Route>*/}
 
                 
             </Switch>
-            </h1>
+            </h2>
         </div>
 
         <nav className='nav-menu active'>

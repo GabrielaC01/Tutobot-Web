@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@700&family=Roboto:wght@300&family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 :root{
     --main-bg-color: #262727;
     --title: #1CC272;
@@ -19,42 +20,58 @@
 /* #conten-estadisticas{
     align-items: center;
 } */
-
 #info{
     width: 25rem;
     height: 20rem;
+    background-color: white;
+    padding: 25px 30px 30px 25px;
+    border-radius: 20px; 
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+    margin-left: -5.5rem;
+    margin-top: 1rem;
+}
+.info2 h2{
+    font-size: 20px;
+    font-family: 'Sunflower', sans-serif; 
+    color:black;
+    margin-left:18%;
+}
+#info p{
+    margin-top:1.5rem;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-#info h2{
-    font-size: 20px;
-    font-family: 'Sunflower', sans-serif;   
-}
-#info p{
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
-
 .datosPersonales{
-    margin-top: 1.2rem;
     width: 25rem;
-    height: 15rem;
+    height: 20rem;
     background-color: white;
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
-    padding: 30px 20px 20px 40px;
     border-radius: 20px;
-    z-index: -10;
+    padding: 25px 30px 30px 25px;
+    
+    margin-bottom: 2rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
 }
 
 .datosPersonales h1{
     text-align: center;
     font-size: 25px;
     margin-bottom: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
 }
 
 .datosPersonales h2{
+    text-align:auto;
     font-size: 18px;
-    margin-top: 0.9rem;
+    margin-top: 2rem;
+    color: black;
+    margin-left:8%;
+    font-family: 'Monstserrat',sans-serif;
 }
 
 .estadisticas{
@@ -66,7 +83,6 @@
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 2rem;
 }
-
 .estadisticas h1{
     text-align: center;
     font-size: 40px;

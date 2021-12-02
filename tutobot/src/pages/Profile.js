@@ -20,7 +20,7 @@ function Profile() {
 					<div className="icono">
 						<FontAwesomeIcon icon={faUser} />
 					</div>
-					<div>
+					<div className="info2">
 						{/* <h2>Laura Santos Balladares</h2> */}
 						<h2>Ciencias de la Computación</h2>
 						<p>
