@@ -10,6 +10,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./Profile.css";
 import '../App.css';
+import Chart from 'chart.js/auto';
+import 'chartjs-plugin-labels';
+import {barData, barOptions, pieData, pieOptions} from '../components/Chart.js';
+import {Bar, Pie} from 'react-chartjs-2';
 
 function Profile() {
 	const { username } = useParams();
@@ -54,12 +58,29 @@ function Profile() {
 					<h2>Promedio de notas:</h2>
 					<h2>Reuniones: </h2> */}
 					<h1>ESTADISTICAS</h1>
-                <h2>Cantidad de tutoriales subidos: 10</h2>
-                <h2>Cantidad total de registros: 3</h2>
-                <h2>Cantidad de registros por tutorial: 0.3</h2>
-                <h2>Cantidad total de me gusta: 2</h2>
-                <h2>Cantidad de me gusta por Tutorial: 0.2</h2>
-                <h2>Reuniones: </h2>
+
+					<div className = "barNotas">
+						
+						Promedio de notas
+						<Bar
+							data = {barData} 
+							options = {barOptions}
+						/>
+					</div>
+					<div className = "pieAprobado">
+						Rendimiento
+						<Pie
+							data = {pieData} 
+							options = {pieOptions}
+						/>
+					</div>
+					<br/><br/>
+					<h2>Cantidad de tutoriales subidos: 10</h2>
+					<h2>Cantidad total de registros: 3</h2>
+					<h2>Cantidad de registros por tutorial: 0.3</h2>
+					<h2>Cantidad total de me gusta: 2</h2>
+					<h2>Cantidad de me gusta por Tutorial: 0.2</h2>
+					<h2>Reuniones: </h2>
 				</div>
 			</div>
 		</div>

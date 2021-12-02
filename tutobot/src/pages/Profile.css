@@ -78,7 +78,7 @@
 
 .estadisticas{
     width: 50rem;
-    height: 24rem;
+    height: 120rem;
     background: linear-gradient(111.41deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%);
     backdrop-filter: blur(100px);
     padding: 25px 30px 30px 50px;
@@ -98,3 +98,8 @@
     margin: 10px 0;
     color: black;
 }
+
+.pieAprobado {
+    width: 400px;
+    height: 400px;
+  }
