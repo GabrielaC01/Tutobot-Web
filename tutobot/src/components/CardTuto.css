@@ -1,0 +1,9 @@
+.btn{
+    background-color:darkcyan;
+    margin-bottom: -2.85rem;
+    place-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #293846;
+}
