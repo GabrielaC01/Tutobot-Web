@@ -18,9 +18,10 @@ function App() {
           
         <AppRouter>
           
-          <Navbar/>
+          <Navbar>
           <CardTuto/>
           <Tutos/>
+          </Navbar>
         </AppRouter>
          
         </div>
