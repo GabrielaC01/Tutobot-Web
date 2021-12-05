@@ -11,7 +11,7 @@ function CardTuto(props) {
                 <div className="card-body">
                     <h5 className="card-title" style={{fontSize:"21px"}}>{title}</h5>
                     <p className="card-text" style={{marginTop:"30px", fontSize:"16px"}}>{text}</p>
-                    <input type="submit" value="Ver Más" style={{color:"#fff",width:"8rem", bottom:"15px", left:"6.5rem"}} className='btn' />
+                    <input type="submit" value="Ver Más" style={{color:"#FFFFFF",width:"8rem", bottom:"15px", left:"6.5rem"}} className='btn' />
                 </div>
             </div>
         </div>

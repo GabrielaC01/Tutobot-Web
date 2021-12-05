@@ -5,11 +5,13 @@ p{
 }
 h5{
     font-family: 'Montserrat', sans-serif;
+    
 }
 .btn{
-    background-color:darkcyan;
+    background-color:#015E7C;
     margin-bottom: -2.85rem;
     place-items: center;
+    
 }
 .btn:hover{
     cursor: pointer;

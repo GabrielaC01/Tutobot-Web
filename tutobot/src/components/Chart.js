@@ -6,10 +6,10 @@ const barData = {
       {
         label: 'Tutoriales',
         data: [12, 18, 12, 5],
-        backgroundColor: "#9370db",
+        backgroundColor: "#E16B72",
         barPercentage: 0.3,
         pointBorderColor: "#8884d8",
-        borderRadius: 5 
+        borderRadius: 5,
       },
     ],
   };
@@ -18,26 +18,27 @@ const barData = {
     responsive: true,
     maintainAspectRatio: true,
     plugins:{legend:{display:true}},
-    layout:{padding:{bottom:100}},
+    layout:{padding:{bottom:20, top:20}},
     scales: {
       y:{
         min: 0,
-        max: 20,  
+        max: 20,
         ticks:{
           color:"black",
           font:{
-            size:12
+            size:13
           }
         },
         grid:{
-          color:"gray"
+          color:"#B5BDD0"
         }
       },
       x:{ 
         ticks:{
           color:"black",
           font:{
-            size:12
+            size:13
+
           }
         },
         grid:{
@@ -46,13 +47,13 @@ const barData = {
       }
     },
   };
-  
+
   const pieData = {
     labels: ['Tutoriales aprobados', 'Tutoriales desaprobados'],
     datasets: [
       {
         data: [75, 25],
-        backgroundColor: ["#9370db", "#ee82ee"],
+        backgroundColor: ["#6AC9C0", "#EBAB8E"],
         hoverOffset: 4
       },
     ],

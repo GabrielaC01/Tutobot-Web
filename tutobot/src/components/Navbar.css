@@ -19,7 +19,7 @@
 
 .title a{
   text-decoration: none;
-  color: #91b2eb;
+  color: white;
 }
 
 .nav-line-inicial{
@@ -43,11 +43,11 @@
 }
 
 .navbar {
-    background-color: black;
-    height: 40px;
-    width: 10%;
+    background-color: #237893;
+    height: 80px;
+    width: auto;
     /* margin-left: 16rem; */
-    display: inline-block;
+    display:flex;
     text-align: center;
     align-items: center;
     z-index: 20;
@@ -60,7 +60,7 @@
   }
   
   .nav-menu {
-    background-color: #015E7C;
+    background-color: #237893;
     width: 17rem;
     height: 90vh;
     display: flex;
@@ -137,8 +137,9 @@
   }
 h2{
   color: #fff;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-left: 10rem;
   white-space: nowrap;
   font-family: 'Sunflower', sans-serif;
+  letter-spacing: 0.6rem;
 }

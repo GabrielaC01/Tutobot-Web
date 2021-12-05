@@ -9,23 +9,25 @@ ul{
 }
 
 body{
-    background-color: #344A81F2;
+    background-color: #CACEDA;
 }
 .App {
     display: grid;
     place-items: center;
     height: 100vh;
+
 }
 
 .app_body{
     height: 90vh;
-    width: 95vw;
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    width: 90rem;
+    background: #C4D6F8;
     backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(14px);
-    border-radius: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    -webkit-box-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65); 
+    sbox-shadow: 0px 14px 19px 3px rgba(0,0,0,0.65);
     display: flex;
+    flex-direction: column;
 
 }
 .home, .question, .nfp{
@@ -41,7 +43,7 @@ body{
     flex-direction: column;
     padding: 8rem;
     padding-top:1.2rem;
-    margin-top: 4rem;
+    margin-top: auto;
     height: 78vh;
     align-items: right;
     font-size: 3rem;
@@ -54,52 +56,57 @@ body{
     font-size: 15px;
 }
 
-.app_body .card {
+.card {
     max-width: 400px;
     width: 100%;
     text-align: center;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
     margin: 0 6px;
-    background: linear-gradient(111.41deg, rgba(255, 255, 255, 0.48) 0%, rgba(255, 255, 255, 0.12) 100%);
-    backdrop-filter: blur(100px);
-    
+    border-style: none;
+    background: linear-gradient(145deg, #b0c1df, #d2e5ff);
+    box-shadow:  -1.2px -2px 4px 0px   #f9ffff,
+    23px 18px 28px 0px  #8f9cb5;
 }
 
-.tutos, .misTutos {
-    margin-left: 10rem;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    display: flex;
+
+.tutoriales{
+    margin-left: 19rem;
     overflow: auto;
-    
-    
-    
-    
+    padding-left: 1rem;
+
+
 }
-@media (min-width: 768px) {
-    .tutos, .misTutos{
+.tutos, .misTutos{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 1rem;
+
+}
+
+
+/*@media (min-width: 768px) {
+    .tutos .misTutos{
       display: grid;
       grid-template-columns: repeat(3, 1fr); 
       column-gap: 4rem;
     }
-}
+}*/
 .cardTuto{
     display: flex;
     margin-right: 1rem;
     width: 20rem;
     margin-bottom: 3rem;
-    
 
-    
-    
+
 }
 
 .cardTuto .card{
     width: 100%;
     height: 16rem;
-    border-radius: 5%;
-    
-    
+    border-radius: 7%;
+    color: black;
+
+
 }
 
 /* .tutos{
